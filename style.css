@@ -1,0 +1,105 @@
+
+body {
+    color: grey;
+    font-family: "Anonymous Pro", monospace ;
+    background-color: rgb(20, 20, 20);
+    background-image: url(./assets/JPA\ VAI\ VIR\ ABAIXO.png.png);
+    max-width: 100%;
+
+}
+
+.jpa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: black;
+    font-weight: 700;
+}
+
+#alta {
+    color: cyan;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center; /* Isso centraliza o texto dentro do h1 */
+    margin: 0; /* Remove margens padrão do h1 */
+}
+
+
+.container {
+    display: inline-block;
+    margin: 20%;
+    align-items: center;
+    height: 100%;
+}
+
+#vem-ai { 
+    overflow: hidden;
+    color: rgb(0, 255, 242);
+    font-size: 50px;
+    font-weight: 700;
+    border-right: 0.15em solid rgb(0, 255, 242);
+    white-space: nowrap;
+    animation: typing 3s steps(90, end) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#SocialMedia {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100px; /* Ajuste a altura conforme necessário */
+}
+
+#SocialMedia a {
+    display: block; /* Para ocupar toda a largura da div */
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    text-align: center; /* Centraliza o texto (opcional) */
+}
+
+#SocialMedia img {
+    width: 50px; /* Ajuste a largura do ícone conforme necessário */
+    height: auto; /* Mantém a proporção do ícone */
+}
+
+#em-breve {
+    padding-top: 10px;
+    color: gainsboro;
+    font-weight: 700;
+    font-size: 50px;
+    animation: typing 6s steps(1000, end) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    position: relative; /* Para garantir que o overflow seja respeitado */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; /* Garante que a imagem se comporte corretamente */
+}
