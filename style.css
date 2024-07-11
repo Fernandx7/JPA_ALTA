@@ -28,7 +28,7 @@ body {
 
 .container {
     display: inline-block;
-    margin: 20%;
+    /* margin: 10%; */
     align-items: center;
     height: 100%;
 }
@@ -78,7 +78,6 @@ body {
     animation: typing 6s steps(1000, end) infinite;
     white-space: nowrap;
     overflow: hidden;
-
 }
 
 
@@ -102,4 +101,30 @@ body {
     height: 100%;
     object-fit: cover;
     display: block; /* Garante que a imagem se comporte corretamente */
+}
+
+#quem {
+    color: rgb(2, 207, 238);
+    font-size: 50px;
+
+}
+
+#descricao {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(112, 112, 112);
+    
+}
+
+#texto-descricao {
+    font-size: 25px;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(2, 207, 238);
 }
